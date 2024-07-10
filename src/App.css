@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+input{
+  border-radius: 4px;
+  display: block;
+  height: 25px;
+  min-width: 200px;
+  margin: 10px;
+  padding-left: 2px;
+}
+
+button{
+  margin-left: 10px;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: rgb(127, 186, 63);
+}
+
+.todo{
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.title,.description{
+  padding: 2px 0px;
+}
+
+.todo-number{
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: rgb(206, 242, 249);
+  padding: 4px;
+  border-radius: 4px;
+}
