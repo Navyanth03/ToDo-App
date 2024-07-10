@@ -13,12 +13,30 @@ input{
   padding-left: 2px;
 }
 
+input:hover{
+  border-color: #e5eaef;
+}
+
 button{
-  margin-left: 10px;
   border: 1px solid transparent;
-  padding: 5px 10px;
   border-radius: 4px;
   background-color: rgb(127, 186, 63);
+}
+
+button:hover{
+  background-color: rgb(241, 106, 106);
+}
+
+#create-btn{
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+.todo-btn{
+  background-color: bisque;
+  padding: 3px 8px;
+  margin-top: 5px;
+  margin-left: 4px;
 }
 
 .todo{
@@ -28,7 +46,8 @@ button{
 }
 
 .title,.description{
-  padding: 2px 0px;
+  padding: 2px;
+  margin-left: 4px;
 }
 
 .todo-number{
@@ -36,6 +55,7 @@ button{
   font-size: 24px;
   font-weight: 700;
   background-color: rgb(206, 242, 249);
-  padding: 4px;
+  padding: 4px 8px;
   border-radius: 4px;
 }
+  

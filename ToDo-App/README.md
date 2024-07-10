@@ -1,7 +1,7 @@
 ## ToDo App
 This is a basic ToDo application which will let you-
 - Create Todo
-- Change State of a ToDo
+- Change State of ToDo
 
 Frontend of this application uses Reactjs. (folder:ToDo-App)
 
