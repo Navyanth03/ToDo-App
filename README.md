@@ -14,4 +14,5 @@ Create a .env file and store your own MongoDB connection URL or directly use it 
 <br><br>
 <u>Image:</u>
 <br>
-![A web application which takes title, description and will show todos on website, we can also modify state of todos](./website.png)
+![A web application which takes title, description and will show todos on website,
+ we can also modify state of todos](./website.png)
